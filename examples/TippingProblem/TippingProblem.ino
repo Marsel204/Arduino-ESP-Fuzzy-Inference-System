@@ -77,7 +77,7 @@ void buildFIS() {
     int tTipMedium = tipVar.findTerm("medium");
     int tTipHigh   = tipVar.findTerm("high");
 
-    /* Output variable index in the defuzzifier (we add it next) */
+    /* Output variable index in the defuzzifier */
     int outTipIdx = 0;
 
     /* Rule 1a: IF food IS poor THEN tip IS low */
@@ -190,10 +190,10 @@ float runTest(float foodScore, float serviceScore) {
 
 void setup() {
     Serial.begin(115200);
-    while (!Serial) { ; } /* Wait for Serial on native USB boards */
+    while (!Serial) { ; }
 
     Serial.println("========================================");
-    Serial.println("  FIS Library — Tipping Problem Example");
+    Serial.println("  FIS Library - Tipping Problem Example");
     Serial.println("========================================");
 
     buildFIS();
