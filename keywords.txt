@@ -1,0 +1,53 @@
+# ──────────────────────────────────────────────────────────────────────
+# keywords.txt — Syntax highlighting for the FIS Arduino library
+# ──────────────────────────────────────────────────────────────────────
+
+# ─── Classes (KEYWORD1) ─────────────────────────────────────────────
+FIS_LinguisticVariable	KEYWORD1
+FIS_FuzzificationModule	KEYWORD1
+FIS_Rule	KEYWORD1
+FIS_Antecedent	KEYWORD1
+FIS_InferenceModule	KEYWORD1
+FIS_DefuzzificationModule	KEYWORD1
+FIS_Term	KEYWORD1
+FIS_MembershipFunction	KEYWORD1
+
+# ─── Methods (KEYWORD2) ─────────────────────────────────────────────
+init	KEYWORD2
+addTermTriangular	KEYWORD2
+addTermTrapezoidal	KEYWORD2
+addTermGaussian	KEYWORD2
+findTerm	KEYWORD2
+evaluate	KEYWORD2
+addVariable	KEYWORD2
+findVariable	KEYWORD2
+getVariable	KEYWORD2
+fuzzify	KEYWORD2
+variableCount	KEYWORD2
+addAntecedent	KEYWORD2
+setConsequent	KEYWORD2
+addRule	KEYWORD2
+infer	KEYWORD2
+ruleCount	KEYWORD2
+addOutputVariable	KEYWORD2
+findOutputVariable	KEYWORD2
+getOutputVariable	KEYWORD2
+defuzzify	KEYWORD2
+outputVariableCount	KEYWORD2
+
+# ─── Functions (KEYWORD2) ───────────────────────────────────────────
+fis_trimf	KEYWORD2
+fis_trapmf	KEYWORD2
+fis_gaussmf	KEYWORD2
+
+# ─── Constants (LITERAL1) ───────────────────────────────────────────
+FIS_MF_NONE	LITERAL1
+FIS_MF_TRIANGULAR	LITERAL1
+FIS_MF_TRAPEZOIDAL	LITERAL1
+FIS_MF_GAUSSIAN	LITERAL1
+FIS_MAX_VARIABLES	LITERAL1
+FIS_MAX_TERMS	LITERAL1
+FIS_MAX_RULES	LITERAL1
+FIS_MAX_ANTECEDENTS	LITERAL1
+FIS_DEFUZZ_SAMPLES	LITERAL1
+FIS_MAX_LABEL_LEN	LITERAL1
